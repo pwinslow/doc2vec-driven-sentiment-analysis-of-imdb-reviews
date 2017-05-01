@@ -59,7 +59,7 @@ class Prepare_Reviews(object):
 
     def cleaner(self, corpus, full_clean=False):
         # Define punctuation
-        punctuation = '".!?,:;(){}[]'
+        punctuation = """'".!?,:;(){}[]-/"""
 
         # Remove non-ascii characters
         corpus = [self.remove_non_ascii(review) for review in corpus]

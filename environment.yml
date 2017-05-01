@@ -68,6 +68,8 @@ dependencies:
 - !!python/unicode
   'unidecode=0.04.20=py27_0'
 - !!python/unicode
+  'wget=2.2=py27_0'
+- !!python/unicode
   'wheel=0.29.0=py27_0'
 - !!python/unicode
   'zlib=1.2.8=3'
